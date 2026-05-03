@@ -1,0 +1,7 @@
+### Footprint positions - created on 2026-05-03T09:03:34-0700 ###
+### Printed by KiCad version 9.0.9
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val            Package                                PosX       PosY       Rot  Side
+J3        Micro_SD_Card  microSD_HC_Hirose_DM3AT-SF-PEJM5   146.5700   -48.7250  180.0000  top
+## End

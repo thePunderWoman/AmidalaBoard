@@ -632,8 +632,8 @@
 		)
 		(uuid "608c7c8f-60c5-4559-846f-9a12f79e2e61")
 	)
-	(hierarchical_label "GPIO36"
-		(shape input)
+	(hierarchical_label "GPIO45"
+		(shape bidirectional)
 		(at 59.69 109.22 0)
 		(effects
 			(font
@@ -654,8 +654,8 @@
 		)
 		(uuid "8d85409a-28f0-4327-94e4-58537eb643af")
 	)
-	(hierarchical_label "GPIO37"
-		(shape input)
+	(hierarchical_label "GPIO48"
+		(shape bidirectional)
 		(at 59.69 111.76 0)
 		(effects
 			(font

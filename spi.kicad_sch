@@ -1486,7 +1486,7 @@
 		(at 110.49 100.33)
 		(uuid "f0b094dc-42c0-4377-be4d-20c8694e74bf")
 	)
-	(hierarchical_label "GPIO11"
+	(hierarchical_label "GPIO35"
 		(shape bidirectional)
 		(at 118.11 63.5 180)
 		(fields_autoplaced yes)
@@ -1497,7 +1497,7 @@
 			(justify right)
 		)
 		(uuid "11a95fbb-0977-4ec5-874c-9b6f097d247b")
-		(property "GPIO11" ""
+		(property "GPIO35" ""
 			(at 118.11 64.77 0)
 			(effects
 				(font
@@ -1508,7 +1508,7 @@
 			)
 		)
 	)
-	(hierarchical_label "GPIO14"
+	(hierarchical_label "GPIO41"
 		(shape bidirectional)
 		(at 72.39 99.06 0)
 		(fields_autoplaced yes)
@@ -1519,7 +1519,7 @@
 			(justify left)
 		)
 		(uuid "131d586f-7bf7-4c8b-b8c9-29bd63aac541")
-		(property "GPIO14" ""
+		(property "GPIO41" ""
 			(at 72.39 100.33 0)
 			(effects
 				(font
@@ -1530,7 +1530,7 @@
 			)
 		)
 	)
-	(hierarchical_label "GPIO11"
+	(hierarchical_label "GPIO35"
 		(shape bidirectional)
 		(at 72.39 91.44 0)
 		(fields_autoplaced yes)
@@ -1540,8 +1540,8 @@
 			)
 			(justify left)
 		)
-		(uuid "133036f9-fae2-4bdd-9184-cf11ccb83ccb")
-		(property "GPIO11" ""
+		(uuid "60081bc4-2d38-4c1b-8d66-9e66b658db4e")
+		(property "GPIO35" ""
 			(at 72.39 92.71 0)
 			(effects
 				(font
@@ -1552,29 +1552,7 @@
 			)
 		)
 	)
-	(hierarchical_label "GPIO11"
-		(shape bidirectional)
-		(at 173.99 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1a9392d3-a3d2-4f95-a2f4-ab4c17cc9e50")
-		(property "GPIO11" ""
-			(at 173.99 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(hierarchical_label "GPIO9"
+	(hierarchical_label "GPIO40"
 		(shape bidirectional)
 		(at 173.99 105.41 0)
 		(fields_autoplaced yes)
@@ -1585,7 +1563,7 @@
 			(justify left)
 		)
 		(uuid "620258d8-90df-445d-8b87-7f479845a380")
-		(property "GPIO9" ""
+		(property "GPIO40" ""
 			(at 173.99 106.68 0)
 			(effects
 				(font
@@ -1596,7 +1574,7 @@
 			)
 		)
 	)
-	(hierarchical_label "GPIO11"
+	(hierarchical_label "GPIO36"
 		(shape bidirectional)
 		(at 110.49 105.41 180)
 		(fields_autoplaced yes)
@@ -1607,7 +1585,7 @@
 			(justify right)
 		)
 		(uuid "6e89ac89-e2d2-4b6b-86f5-9466f285ee3b")
-		(property "GPIO11" ""
+		(property "GPIO36" ""
 			(at 110.49 106.68 0)
 			(effects
 				(font
@@ -1618,7 +1596,29 @@
 			)
 		)
 	)
-	(hierarchical_label "GPIO13"
+	(hierarchical_label "GPIO35"
+		(shape bidirectional)
+		(at 173.99 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f2f7344-24b7-4f82-bb62-5e3dd304a676")
+		(property "GPIO35" ""
+			(at 173.99 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "GPIO36"
 		(shape bidirectional)
 		(at 72.39 93.98 0)
 		(fields_autoplaced yes)
@@ -1629,7 +1629,7 @@
 			(justify left)
 		)
 		(uuid "7017533e-36bc-47fb-9a4f-23ee5b2aba60")
-		(property "GPIO13" ""
+		(property "GPIO36" ""
 			(at 72.39 95.25 0)
 			(effects
 				(font
@@ -1640,7 +1640,7 @@
 			)
 		)
 	)
-	(hierarchical_label "GPIO13"
+	(hierarchical_label "GPIO36"
 		(shape bidirectional)
 		(at 118.11 73.66 180)
 		(fields_autoplaced yes)
@@ -1651,7 +1651,7 @@
 			(justify right)
 		)
 		(uuid "71aedc53-f790-4e98-be78-e7ca0149bca0")
-		(property "GPIO13" ""
+		(property "GPIO36" ""
 			(at 118.11 74.93 0)
 			(effects
 				(font
@@ -1662,7 +1662,7 @@
 			)
 		)
 	)
-	(hierarchical_label "GPIO12"
+	(hierarchical_label "GPIO37"
 		(shape bidirectional)
 		(at 173.99 102.87 0)
 		(fields_autoplaced yes)
@@ -1673,7 +1673,7 @@
 			(justify left)
 		)
 		(uuid "8b44ddc1-f6d8-49c3-9e51-4de8091e58a1")
-		(property "GPIO12" ""
+		(property "GPIO37" ""
 			(at 173.99 104.14 0)
 			(effects
 				(font
@@ -1684,7 +1684,7 @@
 			)
 		)
 	)
-	(hierarchical_label "GPIO10"
+	(hierarchical_label "GPIO39"
 		(shape bidirectional)
 		(at 118.11 60.96 180)
 		(fields_autoplaced yes)
@@ -1695,7 +1695,7 @@
 			(justify right)
 		)
 		(uuid "a26d033c-2ec0-41c0-a4f9-3d9344600721")
-		(property "GPIO10" ""
+		(property "GPIO39" ""
 			(at 118.11 62.23 0)
 			(effects
 				(font
@@ -1706,7 +1706,7 @@
 			)
 		)
 	)
-	(hierarchical_label "GPIO8"
+	(hierarchical_label "GPIO42"
 		(shape bidirectional)
 		(at 173.99 100.33 0)
 		(fields_autoplaced yes)
@@ -1717,7 +1717,7 @@
 			(justify left)
 		)
 		(uuid "dbca6250-9933-4422-ac8a-a91cff8b2a80")
-		(property "GPIO8" ""
+		(property "GPIO42" ""
 			(at 173.99 101.6 0)
 			(effects
 				(font
@@ -1728,7 +1728,7 @@
 			)
 		)
 	)
-	(hierarchical_label "GPIO12"
+	(hierarchical_label "GPIO37"
 		(shape bidirectional)
 		(at 118.11 68.58 180)
 		(fields_autoplaced yes)
@@ -1739,7 +1739,7 @@
 			(justify right)
 		)
 		(uuid "f2a939ab-970f-4580-89ef-a9a98377a911")
-		(property "GPIO12" ""
+		(property "GPIO37" ""
 			(at 118.11 69.85 0)
 			(effects
 				(font
@@ -1750,7 +1750,7 @@
 			)
 		)
 	)
-	(hierarchical_label "GPIO12"
+	(hierarchical_label "GPIO37"
 		(shape bidirectional)
 		(at 72.39 96.52 0)
 		(fields_autoplaced yes)
@@ -1761,7 +1761,7 @@
 			(justify left)
 		)
 		(uuid "fe2ed617-5efe-4537-9526-a62920680204")
-		(property "GPIO12" ""
+		(property "GPIO37" ""
 			(at 72.39 97.79 0)
 			(effects
 				(font

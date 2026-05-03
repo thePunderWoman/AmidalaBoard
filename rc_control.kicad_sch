@@ -685,10 +685,9 @@
 			)
 		)
 	)
-	(hierarchical_label "GPIO39"
+	(hierarchical_label "GPIO12"
 		(shape bidirectional)
 		(at 82.55 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -696,21 +695,10 @@
 			(justify left)
 		)
 		(uuid "aaaff05f-911f-4c82-a304-77959b340306")
-		(property "GPIO39" ""
-			(at 82.55 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
 	)
-	(hierarchical_label "GPIO48"
+	(hierarchical_label "GPIO13"
 		(shape bidirectional)
 		(at 82.55 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -718,16 +706,6 @@
 			(justify left)
 		)
 		(uuid "d7e75590-3188-438c-8968-6c2b3fea8281")
-		(property "GPIO48" ""
-			(at 82.55 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
