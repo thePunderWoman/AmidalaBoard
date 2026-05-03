@@ -1132,10 +1132,6 @@
 		(uuid "c48daaee-283a-48da-8047-1fdb623746e4")
 	)
 	(no_connect
-		(at 80.01 66.04)
-		(uuid "237f4ea7-7c87-4658-95ad-cf37d28fb4c2")
-	)
-	(no_connect
 		(at 80.01 38.1)
 		(uuid "5ab101f4-b945-49e5-ad7d-62afa5ca1b5b")
 	)
@@ -1184,6 +1180,16 @@
 			(type default)
 		)
 		(uuid "03025a01-7b24-4b1a-8693-29ac57cdb560")
+	)
+	(wire
+		(pts
+			(xy 114.3 129.54) (xy 104.14 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d71a62-48a0-4cb4-a640-ac054a95f5ef")
 	)
 	(wire
 		(pts
@@ -1697,6 +1703,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 66.04) (xy 80.01 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c3ae6de-6508-457a-a252-06f3000bd67f")
+	)
+	(wire
+		(pts
 			(xy 86.36 19.05) (xy 138.43 19.05)
 		)
 		(stroke
@@ -2174,6 +2190,16 @@
 			(type default)
 		)
 		(uuid "e99914c2-791d-4d07-b488-44c09ee42b68")
+	)
+	(wire
+		(pts
+			(xy 104.14 129.54) (xy 104.14 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea6073ae-9d54-456f-ae9c-901aa67b2419")
 	)
 	(wire
 		(pts
@@ -2995,6 +3021,16 @@
 		(pin "GPIO42" bidirectional
 			(at 114.3 132.08 180)
 			(uuid "553d51cc-c7cf-4b91-b45b-d1c17171802c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO8" bidirectional
+			(at 114.3 129.54 180)
+			(uuid "bbae8252-7126-49e2-a8cf-9ae5ff711f28")
 			(effects
 				(font
 					(size 1.27 1.27)
