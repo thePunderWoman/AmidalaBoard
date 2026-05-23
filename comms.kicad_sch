@@ -632,7 +632,7 @@
 		)
 		(uuid "608c7c8f-60c5-4559-846f-9a12f79e2e61")
 	)
-	(hierarchical_label "GPIO45"
+	(hierarchical_label "GPIO8"
 		(shape bidirectional)
 		(at 59.69 109.22 0)
 		(effects
@@ -654,7 +654,7 @@
 		)
 		(uuid "8d85409a-28f0-4327-94e4-58537eb643af")
 	)
-	(hierarchical_label "GPIO48"
+	(hierarchical_label "GPIO9"
 		(shape bidirectional)
 		(at 59.69 111.76 0)
 		(effects

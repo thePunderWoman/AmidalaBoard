@@ -76,6 +76,57 @@ The AmidalaShield is a carrier/breakout board for the **ESP32-S3 N16R8 DevKit**.
 
 ---
 
+## GPIO Table
+
+> **V1.1** — Updated GPIO assignments for ESP32-S3 WROOM-1 N8R2/N16R2 (Quad flash/PSRAM).
+> Avoid GPIO35–37 on R8 (Octal) variants. GPIO48 reserved for onboard RGB LED.
+
+| Function | GPIO | DevKit Side | Notes |
+|---|---|---|---|
+| **SPI MOSI** | GPIO11 | Left | Native FSPI, shared bus |
+| **SPI MISO** | GPIO13 | Left | Native FSPI, shared bus |
+| **SPI SCK** | GPIO12 | Left | Native FSPI, shared bus |
+| **SD Card CS** | GPIO10 | Left | |
+| **XBee CS** | GPIO7 | Left | |
+| **SPI Spare CS** | GPIO14 | Left | Exposed header |
+| **XBee ATTN** | GPIO16 | Left | |
+| **XBee SLEEP** | GPIO15 | Left | |
+| **I2C SDA** | GPIO8 | Left | Native I2C default |
+| **I2C SCL** | GPIO9 | Left | Native I2C default |
+| **UART0 TX** | GPIO43 | Right | Shared w/ USB — do not use simultaneously |
+| **UART0 RX** | GPIO44 | Right | Shared w/ USB — do not use simultaneously |
+| **UART1 TX** | GPIO17 | Right | Primary droid brain serial |
+| **UART1 RX** | GPIO18 | Right | |
+| **SW-UART TX** | GPIO21 | Right | |
+| **SW-UART RX** | GPIO38 | Right | |
+| **PPMIN** | GPIO47 | Right | |
+| **Analog 1** | GPIO1 | Right | ADC1_0, WiFi-safe |
+| **Analog 2** | GPIO2 | Right | ADC1_1, WiFi-safe |
+| **Servo 1** | GPIO3 | Left | Strapping pin (JTAG source), safe after boot |
+| **Servo 2** | GPIO4 | Left | |
+| **Servo 3** | GPIO5 | Left | |
+| **Servo 4** | GPIO6 | Left | |
+| **Digital 1** | GPIO39 | Right | Goes HIGH after reset (not LOW like most GPIOs) |
+| **Digital 2** | GPIO40 | Right | |
+| **Digital 3** | GPIO41 | Right | |
+| **Digital 4** | GPIO42 | Right | Transitions low on reset slightly slower |
+| **RGB LED** | GPIO48 | Right | Reserved — onboard DevKit RGB LED |
+| **NC** | GPIO8 | Left | Reserved |
+
+### Pins Intentionally Avoided
+
+| GPIO | Reason |
+|---|---|
+| GPIO0 | Strapping pin — boot mode |
+| GPIO3 | Strapping pin — JTAG source (used for Servo 1, safe after boot) |
+| GPIO19/20 | USB D-/D+ |
+| GPIO26–32 | Internal SPI flash/PSRAM — never use |
+| GPIO35–37 | Internal on Octal (R8) variants — safe on R2 only |
+| GPIO45 | Strapping pin — VDD_SPI voltage |
+| GPIO46 | Strapping pin |
+
+---
+
 ## License
 
 This hardware design is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](LICENSE.md) (CC BY-NC-SA 4.0).

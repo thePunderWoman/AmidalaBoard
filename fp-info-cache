@@ -1,4 +1,11 @@
-28357027305189792
+28360586384143800
+Amidala
+amidala-silkscreen
+
+
+0
+0
+0
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65456,6 +65463,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ESP32-S3-DEVKITC-1-N16R8V
+XCVR_ESP32-S3-DEVKITC-1-N16R8V
+
+
+0
+44
+44
 ExpressIf
 ESP32-C3-DevKitC-02
 
