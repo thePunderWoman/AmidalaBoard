@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.9"
     },
-    "CreationDate": "2026-05-23T10:44:56-07:00"
+    "CreationDate": "2026-06-11T22:12:54-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,12 +14,12 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 106.05,
-      "Y": 73.05
+      "X": 100.05,
+      "Y": 75.05
     },
     "LayerNumber": 4,
     "BoardThickness": 1.6,
-    "Finish": "None"
+    "Finish": "HAL lead-free"
   },
   "DesignRules": [
     {

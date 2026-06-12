@@ -1,27 +1,27 @@
-## Footprint report - date 2026-05-23T10:46:49-0700
+## Footprint report - date 2026-06-11T22:14:29-0700
 ## Created by KiCad version 9.0.9
 ## Unit = mm, Angle = deg.
 
 $BeginDESCRIPTION
 
 $BOARD
-upper_left_corner 50.322618 32.193897
-lower_right_corner 176.527382 112.806103
+upper_left_corner 56.322618 32.483897
+lower_right_corner 176.527382 113.096103
 $EndBOARD
 
 $MODULE C1
 footprint Capacitor_SMD:C_0603_1608Metric
 attribut smd
-position 144.575000 67.600000  orientation 180.00
-layer back
+position 144.470000 66.900000  orientation 180.00
+layer front
 $PAD "1"
-Shape Roundrect Layer back
+Shape Roundrect Layer front
 position -0.775000  0.000000  size  0.900000  0.950000  orientation 0.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "2"
-Shape Roundrect Layer back
+Shape Roundrect Layer front
 position  0.775000  0.000000  size  0.900000  0.950000  orientation 0.00
 drill  0.000000
 shape_offset  0.000000  0.000000
@@ -32,15 +32,15 @@ $MODULE C2
 footprint Capacitor_SMD:C_0603_1608Metric
 attribut smd
 position 155.550000 66.750000  orientation -90.00
-layer back
+layer front
 $PAD "1"
-Shape Roundrect Layer back
+Shape Roundrect Layer front
 position -0.775000  0.000000  size  0.900000  0.950000  orientation 360.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "2"
-Shape Roundrect Layer back
+Shape Roundrect Layer front
 position  0.775000  0.000000  size  0.900000  0.950000  orientation 360.00
 drill  0.000000
 shape_offset  0.000000  0.000000
@@ -50,17 +50,17 @@ $EndMODULE  C2
 $MODULE C3
 footprint Capacitor_SMD:C_0603_1608Metric
 attribut smd
-position 145.325000 54.550000  orientation 180.00
-layer back
+position 146.800000 59.200000  orientation -90.00
+layer front
 $PAD "1"
-Shape Roundrect Layer back
-position -0.775000  0.000000  size  0.900000  0.950000  orientation 0.00
+Shape Roundrect Layer front
+position -0.775000  0.000000  size  0.900000  0.950000  orientation 360.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "2"
-Shape Roundrect Layer back
-position  0.775000  0.000000  size  0.900000  0.950000  orientation 0.00
+Shape Roundrect Layer front
+position  0.775000  0.000000  size  0.900000  0.950000  orientation 360.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
@@ -69,17 +69,17 @@ $EndMODULE  C3
 $MODULE C4
 footprint Capacitor_SMD:C_0805_2012Metric
 attribut smd
-position 148.800000 54.550000  orientation 0.00
-layer back
+position 149.000000 58.950000  orientation -90.00
+layer front
 $PAD "1"
-Shape Roundrect Layer back
-position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+Shape Roundrect Layer front
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "2"
-Shape Roundrect Layer back
-position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+Shape Roundrect Layer front
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
@@ -89,15 +89,15 @@ $MODULE C5
 footprint Capacitor_SMD:C_0603_1608Metric
 attribut smd
 position 159.650000 66.825000  orientation -90.00
-layer back
+layer front
 $PAD "1"
-Shape Roundrect Layer back
+Shape Roundrect Layer front
 position -0.775000  0.000000  size  0.900000  0.950000  orientation 360.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "2"
-Shape Roundrect Layer back
+Shape Roundrect Layer front
 position  0.775000  0.000000  size  0.900000  0.950000  orientation 360.00
 drill  0.000000
 shape_offset  0.000000  0.000000
@@ -108,15 +108,15 @@ $MODULE C6
 footprint Capacitor_SMD:C_0603_1608Metric
 attribut smd
 position 157.550000 66.775000  orientation -90.00
-layer back
+layer front
 $PAD "1"
-Shape Roundrect Layer back
+Shape Roundrect Layer front
 position -0.775000  0.000000  size  0.900000  0.950000  orientation 360.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "2"
-Shape Roundrect Layer back
+Shape Roundrect Layer front
 position  0.775000  0.000000  size  0.900000  0.950000  orientation 360.00
 drill  0.000000
 shape_offset  0.000000  0.000000
@@ -127,25 +127,44 @@ $MODULE C7
 footprint Capacitor_SMD:C_0805_2012Metric
 attribut smd
 position 157.500000 71.200000  orientation -90.00
-layer back
+layer front
 $PAD "1"
-Shape Roundrect Layer back
+Shape Roundrect Layer front
 position -0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "2"
-Shape Roundrect Layer back
+Shape Roundrect Layer front
 position  0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  C7
 
+$MODULE C9
+footprint Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A
+attribut smd
+position 139.400000 97.152500  orientation -90.00
+layer front
+$PAD "1"
+Shape Roundrect Layer front
+position -1.352500  0.000000  size  1.415000  1.390000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Roundrect Layer front
+position  1.352500  0.000000  size  1.415000  1.390000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C9
+
 $MODULE ESP32-S3
 footprint ExpressIf:ESP32-S2-DevKitC-1
 attribut none
-position 69.800000 85.100000  orientation 90.00
+position 71.712720 85.596320  orientation 90.00
 layer front
 $PAD "1"
 Shape Rect Layer both
@@ -341,13 +360,13 @@ shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "28"
 Shape Oval Layer both
-position 22.860000 40.640000  size  1.200000  2.000000  orientation -90.00
+position 25.400000 40.640000  size  1.200000  2.000000  orientation -90.00
 drill  0.800000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "28"
 Shape Oval Layer both
-position 25.400000 40.640000  size  1.200000  2.000000  orientation -90.00
+position 22.860000 40.640000  size  1.200000  2.000000  orientation -90.00
 drill  0.800000
 shape_offset  0.000000  0.000000
 $EndPAD
@@ -437,13 +456,13 @@ shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "36"
 Shape Oval Layer both
-position 22.860000 20.320000  size  1.200000  2.000000  orientation -90.00
+position 25.400000 20.320000  size  1.200000  2.000000  orientation -90.00
 drill  0.800000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "36"
 Shape Oval Layer both
-position 25.400000 20.320000  size  1.200000  2.000000  orientation -90.00
+position 22.860000 20.320000  size  1.200000  2.000000  orientation -90.00
 drill  0.800000
 shape_offset  0.000000  0.000000
 $EndPAD
@@ -548,7 +567,7 @@ $EndMODULE  ESP32-S3
 $MODULE G***
 footprint Amidala:amidala-silkscreen
 attribut virtual
-position 113.400000 72.500000  orientation 180.00
+position 116.243791 72.790000  orientation 180.00
 layer back
 $EndMODULE  G***
 
@@ -669,13 +688,7 @@ shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "11"
 Shape Rect Layer front
-position  6.675000  7.375000  size  1.300000  1.900000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "11"
-Shape Rect Layer front
-position  4.325000 -7.725000  size  1.000000  1.200000  orientation 0.00
+position -6.825000 -3.425000  size  1.000000  1.200000  orientation 0.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
@@ -687,7 +700,13 @@ shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "11"
 Shape Rect Layer front
-position -6.825000 -3.425000  size  1.000000  1.200000  orientation 0.00
+position  4.325000 -7.725000  size  1.000000  1.200000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "11"
+Shape Rect Layer front
+position  6.675000  7.375000  size  1.300000  1.900000  orientation 0.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
@@ -696,7 +715,7 @@ $EndMODULE  J3
 $MODULE J_Analog1
 footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
 attribut none
-position 75.250000 97.270000  orientation 180.00
+position 78.700000 97.190000  orientation 180.00
 layer front
 $PAD "1"
 Shape Rect Layer both
@@ -721,7 +740,7 @@ $EndMODULE  J_Analog1
 $MODULE J_Analog2
 footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
 attribut none
-position 79.150000 97.270000  orientation 180.00
+position 82.600000 97.190000  orientation 180.00
 layer front
 $PAD "1"
 Shape Rect Layer both
@@ -746,7 +765,7 @@ $EndMODULE  J_Analog2
 $MODULE J_Digital1
 footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
 attribut none
-position 89.800000 97.290000  orientation 180.00
+position 93.250000 97.210000  orientation 180.00
 layer front
 $PAD "1"
 Shape Rect Layer both
@@ -771,7 +790,7 @@ $EndMODULE  J_Digital1
 $MODULE J_Digital2
 footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
 attribut none
-position 93.750000 97.290000  orientation 180.00
+position 97.250000 97.210000  orientation 180.00
 layer front
 $PAD "1"
 Shape Rect Layer both
@@ -796,7 +815,7 @@ $EndMODULE  J_Digital2
 $MODULE J_Digital3
 footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
 attribut none
-position 97.700000 97.290000  orientation 180.00
+position 101.200000 97.210000  orientation 180.00
 layer front
 $PAD "1"
 Shape Rect Layer both
@@ -821,7 +840,7 @@ $EndMODULE  J_Digital3
 $MODULE J_Digital4
 footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
 attribut none
-position 101.650000 97.290000  orientation 180.00
+position 105.100000 97.210000  orientation 180.00
 layer front
 $PAD "1"
 Shape Rect Layer both
@@ -871,7 +890,7 @@ $EndMODULE  J_PPMIN1
 $MODULE J_Servo1
 footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
 attribut none
-position 113.800000 97.230000  orientation 180.00
+position 117.300000 97.280000  orientation 180.00
 layer front
 $PAD "1"
 Shape Rect Layer both
@@ -896,7 +915,7 @@ $EndMODULE  J_Servo1
 $MODULE J_Servo2
 footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
 attribut none
-position 117.740000 97.250000  orientation 180.00
+position 121.240000 97.300000  orientation 180.00
 layer front
 $PAD "1"
 Shape Rect Layer both
@@ -921,7 +940,7 @@ $EndMODULE  J_Servo2
 $MODULE J_Servo3
 footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
 attribut none
-position 121.770000 97.230000  orientation 180.00
+position 125.270000 97.280000  orientation 180.00
 layer front
 $PAD "1"
 Shape Rect Layer both
@@ -946,7 +965,7 @@ $EndMODULE  J_Servo3
 $MODULE J_Servo4
 footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
 attribut none
-position 125.710000 97.240000  orientation 180.00
+position 129.210000 97.290000  orientation 180.00
 layer front
 $PAD "1"
 Shape Rect Layer both
@@ -971,7 +990,7 @@ $EndMODULE  J_Servo4
 $MODULE R1
 footprint Resistor_SMD:R_0603_1608Metric
 attribut smd
-position 149.200000 59.575000  orientation -90.00
+position 151.000000 59.575000  orientation -90.00
 layer front
 $PAD "1"
 Shape Roundrect Layer front
@@ -990,7 +1009,7 @@ $EndMODULE  R1
 $MODULE R2
 footprint Resistor_SMD:R_0603_1608Metric
 attribut smd
-position 143.650000 59.575000  orientation 90.00
+position 143.150000 59.575000  orientation 90.00
 layer front
 $PAD "1"
 Shape Roundrect Layer front
@@ -1009,7 +1028,7 @@ $EndMODULE  R2
 $MODULE R3
 footprint Resistor_SMD:R_0603_1608Metric
 attribut smd
-position 145.500000 59.575000  orientation 90.00
+position 145.000000 59.575000  orientation 90.00
 layer front
 $PAD "1"
 Shape Roundrect Layer front
@@ -1025,29 +1044,10 @@ shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  R3
 
-$MODULE R4
-footprint Resistor_SMD:R_0603_1608Metric
-attribut smd
-position 147.350000 59.575000  orientation 90.00
-layer front
-$PAD "1"
-Shape Roundrect Layer front
-position -0.825000  0.000000  size  0.800000  0.950000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "2"
-Shape Roundrect Layer front
-position  0.825000  0.000000  size  0.800000  0.950000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$EndMODULE  R4
-
 $MODULE R5
 footprint Resistor_SMD:R_0603_1608Metric
 attribut smd
-position 151.050000 59.575000  orientation 90.00
+position 152.850000 59.575000  orientation 90.00
 layer front
 $PAD "1"
 Shape Roundrect Layer front
@@ -1066,32 +1066,7 @@ $EndMODULE  R5
 $MODULE REF**
 footprint MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom
 attribut virtual
-position 65.900000 103.400000  orientation 0.00
-layer front
-$PAD "1"
-Shape Circle Layer both
-position  0.000000  0.000000  size  3.600000  3.600000  orientation 0.00
-drill  3.200000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "1"
-Shape Circle Layer front
-position  0.000000  0.000000  size  6.400000  6.400000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "1"
-Shape Circle Layer back
-position  0.000000  0.000000  size  6.400000  6.400000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$EndMODULE  REF**
-
-$MODULE REF**
-footprint MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom
-attribut virtual
-position 65.900000 43.350000  orientation 0.00
+position 71.900000 103.600000  orientation 0.00
 layer front
 $PAD "1"
 Shape Circle Layer both
@@ -1141,7 +1116,32 @@ $EndMODULE  REF**
 $MODULE REF**
 footprint MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom
 attribut virtual
-position 160.950000 103.400000  orientation 0.00
+position 160.950000 103.600000  orientation 0.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  3.600000  3.600000  orientation 0.00
+drill  3.200000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Circle Layer front
+position  0.000000  0.000000  size  6.400000  6.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Circle Layer back
+position  0.000000  0.000000  size  6.400000  6.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  REF**
+
+$MODULE REF**
+footprint MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom
+attribut virtual
+position 71.900000 43.350000  orientation 0.00
 layer front
 $PAD "1"
 Shape Circle Layer both

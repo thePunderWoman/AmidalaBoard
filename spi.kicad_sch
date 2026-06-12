@@ -1700,12 +1700,6 @@
 		(uuid "582dd769-52f0-4d5b-8bdf-92f9f3f0019c")
 	)
 	(junction
-		(at 113.03 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64379dbc-4483-4bba-bd8e-5b2f763cee63")
-	)
-	(junction
 		(at 110.49 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1875,16 +1869,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 69.85) (xy 113.03 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73fa810c-f17c-4d71-af7e-08d4ab85349c")
-	)
-	(wire
-		(pts
 			(xy 113.03 81.28) (xy 113.03 73.66)
 		)
 		(stroke
@@ -1902,16 +1886,6 @@
 			(type default)
 		)
 		(uuid "8b6677bf-2ecf-4c37-afe1-d6d02173b8d4")
-	)
-	(wire
-		(pts
-			(xy 100.33 72.39) (xy 100.33 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92d5d6d7-f7e2-41cf-b0fd-0c894954c286")
 	)
 	(wire
 		(pts
@@ -1955,7 +1929,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 68.58) (xy 118.11 68.58)
+			(xy 110.49 68.58) (xy 118.11 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1972,26 +1946,6 @@
 			(type default)
 		)
 		(uuid "b2e6e367-8f4c-486a-8c67-76a83e72131f")
-	)
-	(wire
-		(pts
-			(xy 110.49 68.58) (xy 113.03 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6d4cd2b-e04b-42d5-bf89-2783fea97fb0")
-	)
-	(wire
-		(pts
-			(xy 113.03 68.58) (xy 113.03 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba925015-658c-474c-a434-6b926ac6e8e9")
 	)
 	(wire
 		(pts
@@ -3113,74 +3067,6 @@
 			(project "AmidalaShield"
 				(path "/6d8d0000-f03d-4277-95db-0f566c3960c4/badd9ffd-b17a-400a-923e-2e73780848ba"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 96.52 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "664faf67-22bd-4384-8348-dfd07d371859")
-		(property "Reference" "R4"
-			(at 96.52 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 96.52 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 96.52 74.168 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 96.52 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d3b75a71-4c7e-46b3-8d2d-09687df1f1ef")
-		)
-		(pin "2"
-			(uuid "0f6d54e5-3aa2-4175-80fc-e448bf03b85e")
-		)
-		(instances
-			(project "AmidalaShield"
-				(path "/6d8d0000-f03d-4277-95db-0f566c3960c4/badd9ffd-b17a-400a-923e-2e73780848ba"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4979,72 +4865,6 @@
 			(project "AmidalaShield"
 				(path "/6d8d0000-f03d-4277-95db-0f566c3960c4/badd9ffd-b17a-400a-923e-2e73780848ba"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 92.71 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fff902e0-502b-4ab5-87e0-f5b1ff2b44cd")
-		(property "Reference" "#PWR023"
-			(at 92.71 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 92.71 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 92.71 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a8cd2ee-d204-4d0d-97a8-a5e2eec28c7c")
-		)
-		(instances
-			(project "AmidalaShield"
-				(path "/6d8d0000-f03d-4277-95db-0f566c3960c4/badd9ffd-b17a-400a-923e-2e73780848ba"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
